@@ -5,14 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Me</title>
+    <script src="https://kit.fontawesome.com/f48133bcdd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Pedro de Carvalho</h1>
-    <p>Hello World! I'm Pedro and you are in my website.</p>
-    
 
-    <footer class="site-footer">© Pedro de Carvalho</footer>
+    <section id="header">
+        <a href="#" class="logo">Pedro de Carvalho</a>
+        <p>Hello World! I'm Pedro and you are in my website.</p>
+
+        <div>
+            <!--  NAVIGATION BAR  -->
+            <ul id="nav-bar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="suggestion_box">
+            <form action="#">
+                <p>Let your suggestion on how to improve this site <input type="text" name="suggestion" placeholder="Your suggestion..." required><button type="submit">Send</button></p>
+            </form>
+        </div>
+        © Pedro de Carvalho
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
